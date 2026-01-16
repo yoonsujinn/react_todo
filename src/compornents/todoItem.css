@@ -1,0 +1,28 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.todoItem>input {
+  width: 20px;
+}
+
+.todoItem .content {
+  flex: 1;
+}
+
+.todoItem .date {
+  font-size: 14px;
+  color: gray;
+}
+
+.todoItem button {
+  cursor: pointer;
+  color: gray;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}

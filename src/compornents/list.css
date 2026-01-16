@@ -1,0 +1,53 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list h4 {
+  font-size: 18px;
+  margin: 5px 0 10px 0;
+}
+
+.list>input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(178, 178, 178, 0.333);
+  padding: 15px 0;
+}
+
+.list>input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(79, 158, 255);
+
+}
+
+.list>.todos_wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.list>.tableContainer {
+  width: 100%;
+  margin: 5px 0 16px 0;
+  border-radius: 15px;
+}
+
+.list>.tableContainer table {
+  width: 100%;
+  border: 1px solid #E3E9F2;
+  border-radius: 5px;
+
+}
+
+.list>.tableContainer table th {
+  width: calc(100% / 3);
+  height: 25px;
+  color: #4c4c4c;
+  background: #F8FAFD;
+  font-size: 15px;
+}
+.list>.tableContainer table td {
+  height: 30px;
+  text-align: center;
+}
